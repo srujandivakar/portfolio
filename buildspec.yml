@@ -3,15 +3,15 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "Installing dependencies..."
+      - echo "-------"
 
   pre_build:
     commands:
-      - echo "Preparing deployment..."
+      - echo "------"
 
   build:
     commands:
-      - echo "Building project..."
+      - echo "--------"
 
   post_build:
     commands:
